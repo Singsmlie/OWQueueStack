@@ -15,6 +15,12 @@
  */
 - (void)enqueue:(id)obj;
 
+/** Add objects to the beginning of a queue.
+ *
+ * @param the object to add.
+ */
+- (void)enqueueObjectsFromArray:(NSArray *)objects;
+
 /** Remove an object from the end of a queue.
  *
  * @return the object that was removed.

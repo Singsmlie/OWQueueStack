@@ -13,7 +13,13 @@
 - (void)enqueue:(id)anObject
 {
     // Push the item in
-    [self addObject: anObject];
+    [self addObject:anObject];
+}
+
+- (void)enqueueObjectsFromArray:(NSArray *)objects
+{
+    // Push items in
+    [self addObjectsFromArray:objects];
 }
 
 // Grab the next item in the queue, if there is one
