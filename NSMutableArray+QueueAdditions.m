@@ -1,7 +1,7 @@
 //
 //  NSMutableArray+QueueAdditions.m
 //
-//  Created by Brant Young on 1/3/14.
+//  Created by Yang Yubo on 1/3/14.
 //  Copyright (c) 2014 Codinn Studio. All rights reserved.
 //
 
